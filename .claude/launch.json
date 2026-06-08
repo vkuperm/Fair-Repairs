@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "fair-repairs",
+      "runtimeExecutable": "D:\\Fair-Repairs\\start.cmd",
+      "runtimeArgs": [],
+      "port": 3000,
+      "cwd": "D:\\Fair-Repairs"
+    }
+  ]
+}

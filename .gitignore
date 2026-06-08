@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Build output & caches
+.vinxi/
+.nitro/
+.output/
+dist/
+.vite/
+node_modules/.vite/
+
+# Vite/Vinxi temp config files
+app.config.timestamp_*.js
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

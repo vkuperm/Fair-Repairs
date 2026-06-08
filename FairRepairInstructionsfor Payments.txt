@@ -1,0 +1,11 @@
+To start the app after a reboot (PostgreSQL comes back on its own):
+
+D:\FairRepair\start.cmd
+Then open http://localhost:3000.
+
+When you're ready to go to production, the things to update:
+
+STRIPE_WEBHOOK_SECRET (+ swap test keys for live keys)
+JWT_SECRET (currently a dev value)
+Add the webhook endpoint for payment resilience
+Everything's in good shape. Just let me know when you want to tackle the webhook, deployment, or any new features. 🔧
